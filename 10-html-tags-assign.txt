@@ -1,0 +1,106 @@
+1.<script> 
+    Used to load a script content or embed javascript in html.
+    Example: 
+        a.<script src="/js/process.js"></script>
+        b.<script>console.log("Welcome to Enyata Academy")</script>
+
+--------------------------------------------------------------------------------------------
+2.<address>
+	Defines contact information for the author/owner of a document
+    Example:
+        a.<address>
+                Written by <a href="mailto:webmaster@example.com">Moshood Sikiru</a>.<br> 
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                Nigeria
+          </address>
+
+
+--------------------------------------------------------------------------------------------
+3.<audio>	
+    Defines sound content
+    Example:
+        a.<audio controls>
+            <source src="enyata.ogg" type="audio/ogg">
+            <source src="enayata.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+         </audio>
+
+
+
+--------------------------------------------------------------------------------------------
+4.<canvas>
+	Used to draw graphics, on the fly, via scripting (usually JavaScript)
+    Example:
+        a.<canvas id="myCanvas"></canvas>
+            <script>
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(0, 0, 80, 80);
+            </script>
+
+
+
+--------------------------------------------------------------------------------------------
+5.<code>
+	Defines a piece of computer code
+    Example:
+        a.<code>
+                if (moshood.succeeds)
+                {
+                     takeIntoAcademy() 
+                }
+        </code>
+
+
+
+--------------------------------------------------------------------------------------------
+6.<footer>
+	Defines a footer for a document or section
+    Example:
+        a.<footer>
+            <p>Posted by: Sikiru Moshood</p>
+            <p>Contact information: <a href="mailto:enyata@example.com">
+            sikirumoshood@example.com</a>.</p>
+         </footer>
+
+
+
+--------------------------------------------------------------------------------------------
+7.<main>	
+    Specifies the main content of a document
+    Example:
+        a.<main>
+            <h1>Web Browsers</h1>
+            Main contents here
+        </main>
+
+
+--------------------------------------------------------------------------------------------
+8.<progress>
+	Represents the progress of a task
+    Example:
+        a.<progress value="22" max="100"></progress>
+
+
+--------------------------------------------------------------------------------------------
+9.<section>	
+    Defines a section in a document
+    Example:
+        a.<section>
+            <h1>Headline News</h1>
+            <p>Enayata academy is enrolling....</p>
+         </section>
+
+
+--------------------------------------------------------------------------------------------
+10.<video>	
+    Defines a video or movie
+    Example:
+        a.<video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+         </video>
